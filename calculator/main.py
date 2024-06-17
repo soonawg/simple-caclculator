@@ -5,11 +5,6 @@ from tkinter import Tk, Entry, Button, StringVar
 # 1. 계산기 기능이 구현되어야 함
 # 2. GUI
 
-# 숫자를 입력하는 버튼
-# 무슨 작업을 시행할지(덧셈? 뺄셈? 나눗셈? 결과 표시?)
-# 키보드를 통해서 입력 가능하도록
-# 지우기 및 초기화 버튼 존재하도록
-
 class Calculator:
     def __init__(self, window):
         window.title("Calculator 🎲")  # title() 윈도우 창의 제목을 정한다.
